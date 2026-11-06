@@ -1,4 +1,4 @@
-# start-hermes
+# 🛠️ start-hermes / automation script with PowerShell
 
 One-command launcher for a private, self-hosted [Hermes Agent](https://github.com/NousResearch/hermes-agent)
 on Windows, using a local model through LM Studio.
@@ -12,3 +12,8 @@ on Windows, using a local model through LM Studio.
 
 **Setup:** run the Hermes setup wizard once, then create
 `hermes_dashboard.env` (dashboard login, never commit it) next to the script.
+
+# 💡 Case Study
+juliusaalto.com - [Case Study Hermes](https://juliusaalto.com/projects/hermes-agent-portfolio)
+
+![screenshot](hermes.webp)
