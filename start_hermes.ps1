@@ -146,6 +146,7 @@ if (-not $existing) {
     & docker run -d --name $CONTAINER --restart unless-stopped `
         -v "${VOLUME}:/opt/data" `
         -p 127.0.0.1:9119:9119 `
+        -w /opt/data/workspace `
         --env-file $envFile `
         -e HERMES_DASHBOARD=1 `
         $IMAGE_NAME gateway run | Out-Null
